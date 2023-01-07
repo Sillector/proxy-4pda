@@ -1,0 +1,128 @@
+html {
+  overflow: auto;
+}
+
+.v-application a {
+  color: #00aec7;
+}
+.v-breadcrumbs {
+  padding: 0 !important;
+}
+.v-sheet.v-card:not(.v-sheet--outlined) {
+  box-shadow: none;
+}
+.v-sheet.v-card {
+  border-radius: 0;
+}
+
+.v-btn--is-elevated {
+  box-shadow: none;
+}
+
+.v-btn {
+  border-radius: 0;
+}
+.v-chip.v-size--small {
+  border-radius: 0;
+}
+
+.v-application--is-ltr .v-list-item__action:first-child, .v-application--is-ltr .v-list-item__icon:first-child {
+  margin-right: 24px;
+}
+
+.v-navigation-drawer__content {
+  .v-list {
+    padding: 0;
+    .theme--light.v-list-item--active::before {
+      opacity: 0;
+    }
+    .theme--light.v-list-item--active {
+      background: #00aec7;
+      color: #fff !important;
+    }
+  }
+}
+
+
+.v-sheet.v-alert:not(.v-sheet--outlined) {
+  box-shadow: none;
+}
+.v-alert {
+  margin: 0;
+}
+.v-alert:not(.v-sheet--tile) {
+  border-radius: 0;
+}
+.v-dialog {
+  border-radius: 0;
+}
+
+.v-sheet.v-app-bar.v-toolbar:not(.v-sheet--outlined) {
+  box-shadow: none;
+}
+
+.v-list-group__header.v-list-item--active:not(:hover):not(:focus):before{
+  //opacity: 1 !important;
+}
+.v-navigation-drawer__content .v-list .theme--light.v-list-item--active.v-list-group__header {
+  //color: #000;
+}
+.main_logo div {
+  position: relative;
+  left: 0px;
+  transition: 0.2s;
+}
+
+.v-navigation-drawer--mini-variant .main_logo div {
+  width: 31px;
+  overflow: hidden;
+  position: relative;
+  left: -3px;
+
+}
+
+#logout_btn .text{
+  display: inherit;
+}
+#logout_btn .icon{
+  display: none;
+}
+
+.v-navigation-drawer--mini-variant {
+  #logout_btn .text{
+    display: none;
+  }
+  #logout_btn .icon{
+    display: inherit;
+  }
+}
+
+.v-text-field.hidden-input {
+  padding: 0;
+}
+
+.v-text-field.hidden-input > .v-input__control > .v-input__slot:before {
+  display: none;
+}
+.v-btn--is-elevated.v-btn--fab {
+  box-shadow: none;
+}
+
+
+.v-sheet.v-stepper {
+  box-shadow: none !important;
+}
+
+
+.hidden-input > .v-input__control > .v-input__slot:before {
+display: none;
+}
+
+.v-dialog {
+  box-shadow: none;
+}
+
+
+.theme--light.v-app-bar.v-toolbar.v-sheet{
+  background: #fff;
+}
